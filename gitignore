@@ -1,0 +1,33 @@
+# Model weights
+models/
+*.pt
+*.bin
+*.safetensors
+
+# Ablation caches
+ablation_results/cache_*.json
+ablation_pipeline_results/
+
+# Analysis outputs (regenerable)
+analysis_results/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.eggs/
+*.egg-info/
+
+# Environment
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
