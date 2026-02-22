@@ -116,7 +116,7 @@ MODEL_CONFIGS = {
         "rate_limit_delay": 0.1,
     },
     "deepseek-v3.2-reasoner": {
-        "display_name": "DeepSeek-V3.2-Reasoner",
+        "display_name": "DeepSeek-V3.2-resoner",
         "api_key_env": "DEEPSEEK_API_KEY",
         "base_url": "https://api.deepseek.com",
         "model": "deepseek-reasoner",

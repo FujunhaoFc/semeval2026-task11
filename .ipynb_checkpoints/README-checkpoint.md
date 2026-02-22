@@ -22,7 +22,7 @@ Input Syllogism
 Layer 1: Regex Rule System (ST1 only)
     │ ── success ──▶ Valid/Invalid
     ▼ fail
-Layer 2: LLM Symbolic Parsing (DeepSeek-V3.2)
+Layer 2: LLM Symbolic Parsing (DeepSeek-V3)
     │   Parse → Mood + Figure → Lookup 24 valid forms
     │ ── success ──▶ Valid/Invalid
     ▼ fail
@@ -39,7 +39,7 @@ For ST2/ST4 (retrieval subtasks), a premise retrieval step is added before class
 - **Near-zero content effect**: Our symbolic approach achieves TCE < 1% by reasoning over logical structure rather than semantic content
 - **Symbolic accuracy**: When parsing succeeds, the lookup table achieves 96%+ accuracy across all tested LLMs
 - **Parsing is the bottleneck**: Errors predominantly come from parsing failures, not reasoning errors
-- **Reasoning models ≠ better parsers**: DeepSeek-V3.2-Reasoner has the highest symbolic accuracy (97.9%) but lowest parsing rate (20.6%), making general-purpose chat models more suitable
+- **Reasoning models ≠ better parsers**: DeepSeek-R1 has the highest symbolic accuracy (97.9%) but lowest parsing rate (20.6%), making general-purpose chat models more suitable
 
 ## Repository Structure
 
